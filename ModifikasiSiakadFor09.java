@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class ModifikasiSiakadFor09 {
-    Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         double nilai, tertinggi = 0, terendah = 100;
         int lulus = 0, tidakLulus = 0;
 
@@ -26,7 +27,6 @@ public class ModifikasiSiakadFor09 {
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
         System.out.println("Jumlah mahasiswa lulus: " + lulus);
-        System.out.println("Jumlah mahasiswa tidak lulus: " + tidakLulus);
-
-    
+        System.out.println("Jumlah mahasiswa tidak lulus: " + tidakLulus);    
+    } 
 }
